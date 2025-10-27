@@ -88,7 +88,7 @@ class EasySVG
      * @param integer $size
      * @param string|null $color
      */
-    public function setFont(string $filepath, int $size, string $color = null): void
+    public function setFont(string $filepath, int $size, ?string $color = null): void
     {
         $this->setFontSVG($filepath);
         $this->setFontSize($size);
